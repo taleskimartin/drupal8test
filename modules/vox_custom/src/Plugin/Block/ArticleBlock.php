@@ -73,11 +73,6 @@ class ArticleBlock extends BlockBase {
 
     return array(
       '#markup' => $html,
-      '#attached' => array(
-        'library' => array(
-          'vox_custom/custom-js',
-        ),
-      ),
     );
 
   }
