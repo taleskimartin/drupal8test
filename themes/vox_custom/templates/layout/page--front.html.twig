@@ -1,0 +1,47 @@
+<div id="page-wrap" class="front">
+    {% include directory ~ '/templates/layout/header.html.twig' %}
+
+    <section id="front-section">
+        <div class="container">
+            <div id="front-green-section-wrapper">
+                <div class="col-sm-8">
+                    <p>I am your lorem ipsum text, you can remove me in
+                        "page--front.html.twig" file</p>
+
+                    <p>Phasellus volutpat, metus eget egestas mollis, lacus
+                        lacus blandit dui, id egestas quam mauris ut lacus.
+                        Vivamus quis mi. Maecenas malesuada. Etiam sollicitudin,
+                        ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien,
+                        quis venenatis ante odio sit amet eros. Nunc interdum
+                        lacus sit amet orci.
+
+                        Sed mollis, eros et ultrices tempus, mauris ipsum
+                        aliquam libero, non adipiscing dolor urna a orci.
+                        Phasellus consectetuer vestibulum elit. Fusce vulputate
+                        eleifend sapien. Fusce risus nisl, viverra et, tempor
+                        et, pretium in, sapien. Ut a nisl id ante tempus
+                        hendrerit.</p>
+                    {#{{ page.content }}#}
+                </div>
+                <div class="col-sm-4">
+                    <p>I am your lorem ipsum text in the sidebar, you can remove
+                        me in
+                        "page--front.html.twig" file</p>
+
+                    <p>Sed mollis, eros et ultrices tempus, mauris ipsum
+                        aliquam libero, non adipiscing dolor urna a orci.
+                        Phasellus consectetuer vestibulum elit. Fusce vulputate
+                        eleifend sapien. Fusce risus nisl, viverra et, tempor
+                        et, pretium in, sapien. Ut a nisl id ante tempus
+                        hendrerit.</p>
+                    {#{{ page.sidebar }}#}
+                </div>
+                <div class="col-sm-12">
+                    <img src="http://i.imgur.com/XGppe.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include directory ~ '/templates/layout/footer.html.twig' %}
+</div>

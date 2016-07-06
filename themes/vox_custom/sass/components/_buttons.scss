@@ -1,0 +1,87 @@
+.btn {
+  background: $grey1;
+  padding: 10px 25px;
+  border-radius: 0;
+  position: relative;
+  height: 50px;
+  padding-left: 70px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $black;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 15px;
+  display: block;
+  max-width: 355px;
+
+  .icon {
+    position: absolute;
+    left: 25px;
+  }
+}
+
+.app-buttons {
+  a {
+    float: left;
+    margin-right: 18px;
+  }
+}
+
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+.navbar-toggle {
+  display: block;
+  float: left;
+  overflow: hidden;
+
+  .icon-bar {
+    transition: opacity, transform;
+    transition-duration: $speed;
+    transition-timing-function: $easing;
+  }
+  span {
+    background: $orangeVox1;
+    width: 28px !important;
+    height: 4px !important;
+  }
+  &:not(.collapsed) {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      &:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    }
+  }
+}
+
+.path-frontpage {
+  .navbar-toggle {
+    span {
+      background: $orangeVox1;
+      width: 28px !important;
+      height: 4px !important;
+    }
+  }
+}
+
+#edit-preview {
+  display: none;
+}
+
+#navigation {
+  #logo-menu {
+    float: left;
+  }
+
+  #close-btn {
+    float: right;
+    padding: 10px 0;
+  }
+}

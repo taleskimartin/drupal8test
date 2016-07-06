@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * vox_custom.module
+ */
+
+use Drupal\Core\Block\BlockPluginInterface;

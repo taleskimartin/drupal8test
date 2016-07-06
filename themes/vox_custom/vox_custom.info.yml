@@ -1,0 +1,45 @@
+name: Vox Teneo Custom Theme
+description: Drupal 8 Custom Theme
+type: theme
+core: 8.x
+libraries:
+    - vox_custom/global-css
+    - vox_custom/global-js
+stylesheets-remove:
+    - core/themes/stable/css/viewsa/views.module.css
+    - core/themes/stable/css/system/components/align.module.css
+    - core/themes/stable/css/system/components/ajax-progress.module.css
+    - core/themes/stable/css/system/components/autocomplete-loading.module.css
+    - core/themes/stable/css/system/components/fieldgroup.module.css
+    - core/themes/stable/css/system/components/container-inline.module.css
+    - core/themes/stable/css/system/components/clearfix.module.css
+    - core/themes/stable/css/system/components/details.module.css
+    - core/themes/stable/css/system/components/hidden.module.css
+    - core/themes/stable/css/system/components/item-list.module.css
+    - core/themes/stable/css/system/components/js.module.css
+    - core/themes/stable/css/system/components/nowrap.module.css
+    - core/themes/stable/css/system/components/position-container.module.css
+    - core/themes/stable/css/system/components/progress.module.css
+    - core/themes/stable/css/system/components/reset-appearance.module.css
+    - core/themes/stable/css/system/components/resize.module.css
+    - core/themes/stable/css/system/components/sticky-header.module.css
+    - core/themes/stable/css/system/components/tabledrag.module.css
+    - core/themes/stable/css/system/components/tablesort.module.css
+    - core/themes/stable/css/system/components/tree-child.module.css
+    - core/themes/stable/css/views/views.module.css
+    - core/themes/classy/css/components/node.css
+    - modules/colorbox/styles/default/colorbox_style.css
+    - core/assets/vendor/normalize-css/normalize.css
+    - core/modules/system/css/system.module.css
+    - core/modules/system/css/system.theme.css
+    - core/modules/views/css/views.module.css
+
+regions:
+    header: 'Header'
+    navigation: 'Navigation'
+    sidebar: 'Sidebar'
+    top_content: 'Top content'
+    content: 'Content'
+    bottom_content: 'Bottom content'
+    footer: 'Footer'
+    footer_menu: 'Footer Menu'

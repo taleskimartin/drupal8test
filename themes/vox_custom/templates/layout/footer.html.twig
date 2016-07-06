@@ -1,0 +1,40 @@
+<footer id="footer">
+    <div class="container">
+
+        {{ page.footer }}
+
+        <div class="col-md-offset-1 col-md-10 footer-navigation">
+            <div class="col-sm-5 footer-logo">
+                <div class="footer-logo-svg">
+                    <a href="/">
+                        <img src="{{ base_path }}themes/vox_custom/images/logo.png"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-7 footer-menu">
+                {{ page.footer_menu }}
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+
+
+        <div class="col-md-offset-1 col-md-10">
+            <div class="copyright col-md-5">&copy {{ 'now'|date('Y') }}
+                {{ "Vox Training"|t }}
+            </div>
+            <div class="social-links col-md-7">
+                <ul class="pull-right">
+                    <li>
+                        <a href="https://www.facebook.com/voxteneo">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/voxteneo">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>

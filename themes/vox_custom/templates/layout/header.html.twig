@@ -1,0 +1,32 @@
+<div id="overlay" class="nav-hide">
+    <div id="nav-fullwidth">
+        <div class="container">
+            {{ page.navigation }}
+        </div>
+    </div>
+</div>
+<header id="header">
+    <div class="container">
+        {#<a href="#" class="toggle-button"></a>#}
+        <div class="header-wrapper">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navigation">
+                <span class="icon-bar bar1"></span>
+                <span class="icon-bar bar2"></span>
+                <span class="icon-bar bar3"></span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <div id="logo">
+                <a href="/">
+                    <img src="{{ base_path }}themes/vox_custom/images/logo.png"/>
+                    {#{% include directory ~ '/templates/svgs_html/logo.html.twig' %}#}
+                </a>
+            </div>
+        </div>
+        <div id="lang-switcher">
+            <div class="wrap">
+                {{ page.search_langswitcher }}
+            </div>
+        </div>
+    </div>
+</header>

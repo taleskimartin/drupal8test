@@ -1,0 +1,6 @@
+name: Vox Custom
+description: "Vox custom module"
+core: 8.x
+package: Custom
+type: module
+dependencies: {  }

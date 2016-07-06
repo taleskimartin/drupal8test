@@ -1,0 +1,372 @@
+.bg-white {
+  background: $white;
+}
+
+.front {
+  .right-browser {
+    background-color: $white;
+  }
+}
+
+#front-green-section {
+  background: $footerGrey;
+  border-top: 1px solid $eee;
+  border-bottom: 1px solid $eee;
+  position: relative;
+
+  .read-more-homepage {
+    color: $greenMamas;
+    border: 1px solid $greenMamas;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .handtable, .hands {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .handtable {
+    left: -42px;
+  }
+
+  .hands {
+    right: -62px;
+  }
+}
+
+#front-green-section-wrapper {
+  margin: 0 auto;
+  padding: 25px 0;
+  img {
+    margin: 0 20px;
+  }
+  h2 {
+    text-align: left;
+  }
+}
+
+.fieldcontainer, .fieldcontainer-footer {
+
+}
+
+#search-block-form {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: right;
+  margin: 0 auto;
+  max-width: 100%;
+
+  #edit-keys {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: $white;
+    border: none;
+    color: #1e1e1e;
+    border-bottom-color: $white;
+    padding: 15px 20px;
+    padding-right: 50px;
+    font-size: 18px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #edit-submit {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    height: 23px;
+    width: 28px;
+    border: 0;
+    cursor: pointer;
+    zoom: 1;
+    padding-left: 30px;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0
+  }
+}
+
+#search-box-with-select-wrapper {
+  background: $white;
+}
+
+#search-box-with-select {
+  z-index: 9999;
+  width: 408px;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+  height: 280px;
+
+  .select-style,
+  .search-box {
+    float: left;
+    padding: 15px 20px;
+  }
+
+  .search-box {
+    font-size: 18px;
+    border: none;
+    max-width: 180px;
+  }
+  .search-icon {
+    img {
+      padding: 15px;
+      padding-right: 25px;
+      float: right;
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    line-height: 1;
+    color: $greenDark;
+  }
+}
+
+.select-style {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 130px;
+  overflow: hidden;
+  background-color: $white;
+
+  select {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 110%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  select:focus {
+    outline: none;
+  }
+}
+
+.middle-list {
+  margin-top: 70px;
+}
+
+.middle-list, .middle-list-padding-off {
+  h2 {
+    font-weight: 700;
+    text-align: left;
+  }
+  li {
+    margin: 0 20px 35px 0;
+    position: relative;
+  }
+
+  .num-list {
+    p {
+      margin-left: 75px;
+      opacity: 0.4;
+    }
+  }
+
+  .image-check {
+    display: block;
+    width: 22px;
+    height: 17px;
+    background: url('../images/check.png');
+  }
+
+  .number-circle-black, .check-circle-black {
+    background: $black;
+  }
+
+  .check-box {
+    padding: 13px;
+  }
+
+  .number-circle, .check-circle {
+    background: #f5f5f5;
+  }
+
+  .number-circle, .check-circle, .number-circle-black, .check-circle-black {
+    height: 45px;
+    width: 45px;
+    display: block;
+    border-radius: 100%;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+  }
+
+  .check-circle-black, .check-circle {
+    padding: 13px;
+  }
+
+  .selected-number-circle {
+    p,
+    span {
+      opacity: 1;
+    }
+
+    .number-circle, .check-circle {
+      opacity: 1;
+      background: $font;
+      color: $white;
+    }
+  }
+}
+
+.posrel {
+  position: relative;
+}
+
+.posaps {
+  position: absolute;
+}
+
+.section-description {
+  margin-bottom: $margin50Bottom;
+  text-align: center;
+}
+
+.section-padding {
+  padding-top: 75px;
+  position: relative;
+  background: $white;
+}
+
+.border {
+  border-bottom: 1px solid #eee;
+}
+
+.margin50bottom {
+  margin-bottom: $margin50Bottom;
+}
+
+.margin50top {
+  margin-top: $margin50Bottom;
+}
+
+.margin100bottom {
+  margin-bottom: $margin100Bottom;
+}
+
+.margin100top {
+  margin-top: $margin100Bottom;
+}
+
+.padding100bottom {
+  padding-bottom: $margin100Bottom;
+}
+
+.image, .list {
+  width: 100%;
+  float: left;
+}
+
+.iphone-img {
+  margin-right: $margin50Bottom;
+}
+
+.image {
+  width: 50%;
+  height: 1px;
+}
+
+.image-right, .image-left, .list {
+  width: 100%;
+  float: left;
+}
+
+.image-right, .image-left {
+  max-width: 50%;
+  position: absolute;
+}
+
+.image-left {
+  left: -10px;
+}
+
+.image-right {
+  right: 10px;
+  top: 100px;
+}
+
+.pull-left-img {
+  left: $margin50Bottom;
+}
+
+.pull-right-img {
+  right: $margin50Bottom;
+}
+
+.list {
+  max-width: 50%;
+
+  .description {
+    margin-bottom: $margin50Bottom;
+  }
+}
+
+.section-left {
+  padding-bottom: 75px;
+  .list {
+    float: right;
+  }
+}
+
+.content-inner-wrapper {
+  .image-right {
+    top: 0;
+  }
+
+  .desc {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: $margin50Bottom;
+  }
+}
+
+.iphone-img {
+  opacity: 0;
+}
+
+.iphone-img.active {
+  opacity: 1;
+}
+
+.cycler {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+  }
+
+  img.active {
+    z-index: 3;
+  }
+
+}
+
+.slide-liketask-front {
+  cursor: pointer;
+}
+

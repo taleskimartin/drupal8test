@@ -1,0 +1,144 @@
+.front {
+  #lang-switcher {
+    ul {
+      li.is-active {
+        a {
+          color: #fff;
+          &:after {
+            content: '';
+            display: block;
+          }
+        }
+
+      }
+    }
+    &:hover {
+      ul {
+        li.is-active {
+          a {
+            color: #30aee2;
+            &:after {
+              content: '';
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#lang-switcher {
+  float: right;
+  position: relative;
+  top: -50px;
+
+  ul {
+    position: relative;
+    top: 40px;
+    width: 230px;
+    height: 0;
+    display: block;
+    padding: 20px;
+    background: transparent;
+
+    li {
+      width: 210px;
+      background: $white;
+      display: none;
+
+      a {
+        width: 120px;
+        display: inline-block;
+        padding: 11px 24px;
+        font-size: 16px;
+        color: $fontLight;
+
+        &:hover {
+          background: $green1;
+          border-radius: 50px;
+          color: $white;
+          font-weight: 700;
+        }
+      }
+    }
+
+    li.is-active {
+      position: absolute;
+      right: 0;
+      width: auto;
+      clear: both;
+      top: -44px;
+      height: 44px;
+      display: block;
+      line-height: 45px;
+      text-align: center;
+      background: transparent;
+
+      a {
+        pointer-events: none;
+        cursor: pointer;
+        color: $black;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        width: auto;
+        padding: 15px 10px 0px 10px;
+
+        &:hover {
+          background: transparent;
+          border-radius: 0;
+          font-weight: 400;
+        }
+
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          width: 13px;
+          height: 7px;
+        }
+      }
+    }
+  }
+  &:hover {
+    ul {
+      padding: 20px;
+      background: $white;
+      height: auto;
+      -webkit-transition: all 0s linear;
+      -moz-transition: all 0s linear;
+      -ms-transition: all 0s linear;
+      -o-transition: all 0s linear;
+      transition: all 0s linear;
+    }
+
+    li.is-active {
+      background: $white;
+      -webkit-transition: all 0s linear;
+      -moz-transition: all 0s linear;
+      -ms-transition: all 0s linear;
+      -o-transition: all 0s linear;
+      transition: all 0s linear;
+    }
+
+    li {
+      display: block !important;
+    }
+  }
+}
+
+#lang-switcher {
+  margin-top: 7px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+
+  .wrap {
+    position: relative;
+  }
+}

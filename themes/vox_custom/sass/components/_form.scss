@@ -1,0 +1,79 @@
+.form-managed-file .form-submit {
+  margin: 0;
+}
+
+.description {
+  display: none;
+}
+
+form {
+  width: 100%;
+  max-width: 355px;
+  margin: auto;
+  label {
+    display: none;
+  }
+
+  input {
+    height: 45px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $fontLight;
+    margin: 0 auto 15px;
+  }
+
+  textarea, input {
+    width: 100%;
+    max-width: 355px;
+    border: 1px solid $grey;
+  }
+
+  textarea {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  input[type="submit"] {
+    background: $greenMamas;
+    color: $white;
+    border: 0;
+    font-size: 18px;
+  }
+}
+
+.contact-form {
+  form {
+    width: 100%;
+    max-width: 690px;
+
+    label {
+      display: block;
+    }
+
+    > .form-wrapper,
+    > .form-item {
+      float: left;
+      max-width: 325px;
+      margin: 0 10px;
+    }
+
+    .field--name-message {
+      max-width: 670px;
+      width: 100%;
+    }
+    textarea {
+      max-width: 670px;
+    }
+
+    #edit-actions {
+      clear: both;
+      float: right;
+    }
+
+    #edit-submit {
+      width: 200px;
+      height: 60px;
+    }
+  }
+}

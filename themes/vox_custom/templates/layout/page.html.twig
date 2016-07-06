@@ -1,0 +1,17 @@
+<div class="page-wrap">
+    {% include directory ~ '/templates/layout/header.html.twig' %}
+    <main id="main" class="container">
+
+        {% if page.sidebar %}
+            <div class="col-md-5">
+                {{ page.sidebar }}
+            </div>
+            <div class="col-md-7">
+                {{ page.content }}
+            </div>
+        {% else %}
+            {{ page.content }}
+        {% endif %}
+    </main>
+
+    {% include directory ~ '/templates/layout/footer.html.twig' %}

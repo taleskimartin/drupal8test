@@ -1,0 +1,18 @@
+global-css: 
+    css: 
+        theme:
+            css/vendors/bootstrap.min.css: {}
+            css/main.css: {}
+            lib/fancybox/jquery.fancybox.css: {}
+            lib/responsiveslidesjs/responsiveslides.css: {}
+            https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
+
+global-js: 
+    js: 
+        https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js: { type: external, minified: true }
+        lib/fancybox/jquery.fancybox.pack.js: {}
+        lib/responsiveslidesjs/responsiveslides.min.js: {}
+        js/custom/site-functions.js: {}
+
+    dependencies:
+        - core/jquery

@@ -1,0 +1,199 @@
+//@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,300italic,300);
+
+/*----- BASIC SITE STYLES -----*/
+
+html, body {
+  background: $footerGrey;
+  font-family: $condensed;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  position: relative;
+  margin: auto;
+}
+
+.container, .node-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.node-container {
+  max-width: 1104px;
+  padding: 100px 70px;
+}
+
+.page-wrap {
+  height: auto !important;
+  width: 100%;
+}
+
+#main {
+  background: #fafafa;
+}
+
+.row {
+  margin: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2,
+.col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3,
+.col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4,
+.col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7,
+.col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8,
+.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9,
+.col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding: 0;
+}
+
+/*----- SITE FONTS -----*/
+
+//@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+h1, h2, h3, h4, h5, h6, a, p {
+  font-family: $condensed;
+  line-height: 100%;
+  margin: 0;
+  color: $fontLight;
+}
+
+h1, h2, h3, h4 {
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+h1 {
+  font-size: 32px;
+  span {
+    color: $orangeVox1;
+    font-weight: bold;
+  }
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: $black;
+}
+
+//h2{
+//    font-weight: 700;
+//}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  color: $fontLight;
+
+  &:hover, &:active {
+    //color:darken($green, 10%);
+    color: $fontLight;
+    text-decoration: none;
+  }
+}
+
+span {
+  color: $fontLight;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  li {
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+}
+
+* {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  font-weight: 300;
+}
+
+[attribute = value] {
+
+}
+
+.italic {
+  font-style: italic;
+}
+
+.align-right {
+  float: right;
+  margin-left: $margin25Bottom;
+  margin-bottom: 20px;
+}
+
+.align-left {
+  float: left;
+  margin-right: $margin25Bottom;
+  margin-bottom: 20px;
+}
