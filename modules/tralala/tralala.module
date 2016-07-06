@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains tralala.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function tralala_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the tralala module.
+    case 'help.page.tralala':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Tralala Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

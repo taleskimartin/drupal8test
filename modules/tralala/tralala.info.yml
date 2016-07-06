@@ -1,0 +1,5 @@
+name: tralala
+type: module
+description: Tralala Module
+core: 8.x
+package: Custom

@@ -1,0 +1,8 @@
+
+tralala.tralala_controller_hello:
+  path: '/tralala/hello/{name}'
+  defaults:
+    _controller: '\Drupal\tralala\Controller\TralalaController::hello'
+    _title: 'Show'
+  requirements:
+    _permission: 'access content'
