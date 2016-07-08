@@ -5,59 +5,6 @@
   padding-top: $margin100Bottom;
   padding-bottom: $margin100Bottom;
 
-  #block-simplenewssubscription {
-    margin-bottom: $margin100Bottom;
-
-    form {
-      max-width: 100%;
-
-      #edit-message {
-        margin-bottom: $margin50Bottom;
-        font-size: 16px;
-        line-height: 22px;
-        color: $fontLight;
-      }
-
-      #edit-actions,
-      #edit-actions--2,
-      #edit-mail-wrapper {
-        display: inline-block;
-      }
-
-      #edit-actions,
-      #edit-mail-wrapper {
-        max-width: 590px;
-      }
-
-      #edit-mail-wrapper {
-        margin-right: 5px;
-      }
-      #edit-mail-0-value {
-        padding: 15px 20px;
-        border: 1px solid $black;
-        width: 590px;
-        max-width: 590px;
-        display: inline-block;
-        height: 50px;
-        font-size: 14px;
-      }
-
-      input[type="submit"] {
-        padding: 15px 30px;
-        background: $black;
-        border: 1px solid $black;
-        color: $white;
-        display: inline-block;
-        height: auto;
-        font-size: 14px;
-        height: 50px;
-        text-transform: uppercase;
-      }
-
-    }
-
-  }
-
   .navigation {
     float: left;
     margin-left: 30px;
@@ -77,14 +24,6 @@
     }
   }
 
-  .footer-newsletter-description {
-    margin-bottom: $margin50Bottom;
-  }
-
-  .footer-search {
-    margin-bottom: $margin100Bottom;
-  }
-
   .footer-navigation {
     margin-bottom: $margin50Bottom;
   }
@@ -96,14 +35,6 @@
   .social-links {
     a {
       margin-left: 10px;
-    }
-  }
-
-  .developed-by-martin {
-    font-size: 12px;
-    a {
-      color: #434748;
-      font-size: 12px;
     }
   }
 

@@ -130,42 +130,42 @@ h6 {
   color: #353738;
 }
 
-/* line 118, ../sass/base/_base.scss */
+/* line 114, ../sass/base/_base.scss */
 p {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 10px;
 }
 
-/* line 124, ../sass/base/_base.scss */
+/* line 120, ../sass/base/_base.scss */
 a {
   text-decoration: none !important;
   color: #898989;
 }
-/* line 128, ../sass/base/_base.scss */
+/* line 124, ../sass/base/_base.scss */
 a:hover, a:active {
   color: #898989;
   text-decoration: none;
 }
 
-/* line 135, ../sass/base/_base.scss */
+/* line 130, ../sass/base/_base.scss */
 span {
   color: #898989;
 }
 
-/* line 139, ../sass/base/_base.scss */
+/* line 134, ../sass/base/_base.scss */
 ul, ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 143, ../sass/base/_base.scss */
+/* line 138, ../sass/base/_base.scss */
 ul li, ol li {
   font-size: 16px;
   text-decoration: none;
   list-style-type: none;
 }
 
-/* line 150, ../sass/base/_base.scss */
+/* line 145, ../sass/base/_base.scss */
 * {
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -174,47 +174,47 @@ ul li, ol li {
   transition: all 0.3s linear;
 }
 
-/* line 158, ../sass/base/_base.scss */
+/* line 153, ../sass/base/_base.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 163, ../sass/base/_base.scss */
+/* line 158, ../sass/base/_base.scss */
 ::-webkit-input-placeholder {
   font-weight: 300;
 }
 
-/* line 167, ../sass/base/_base.scss */
+/* line 162, ../sass/base/_base.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   font-weight: 300;
 }
 
-/* line 172, ../sass/base/_base.scss */
+/* line 167, ../sass/base/_base.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   font-weight: 300;
 }
 
-/* line 177, ../sass/base/_base.scss */
+/* line 172, ../sass/base/_base.scss */
 :-ms-input-placeholder {
   font-weight: 300;
 }
 
-/* line 185, ../sass/base/_base.scss */
+/* line 180, ../sass/base/_base.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 189, ../sass/base/_base.scss */
+/* line 184, ../sass/base/_base.scss */
 .align-right {
   float: right;
   margin-left: 25px;
   margin-bottom: 20px;
 }
 
-/* line 195, ../sass/base/_base.scss */
+/* line 190, ../sass/base/_base.scss */
 .align-left {
   float: left;
   margin-right: 25px;
@@ -436,105 +436,36 @@ td, th {
   padding-bottom: 100px;
 }
 /* line 8, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription {
-  margin-bottom: 100px;
-}
-/* line 11, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form {
-  max-width: 100%;
-}
-/* line 14, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form #edit-message {
-  margin-bottom: 50px;
-  font-size: 16px;
-  line-height: 22px;
-  color: #898989;
-}
-/* line 23, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form #edit-actions,
-#footer #block-simplenewssubscription form #edit-actions--2,
-#footer #block-simplenewssubscription form #edit-mail-wrapper {
-  display: inline-block;
-}
-/* line 28, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form #edit-actions,
-#footer #block-simplenewssubscription form #edit-mail-wrapper {
-  max-width: 590px;
-}
-/* line 32, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form #edit-mail-wrapper {
-  margin-right: 5px;
-}
-/* line 35, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form #edit-mail-0-value {
-  padding: 15px 20px;
-  border: 1px solid #353738;
-  width: 590px;
-  max-width: 590px;
-  display: inline-block;
-  height: 50px;
-  font-size: 14px;
-}
-/* line 45, ../sass/layout/_footer.scss */
-#footer #block-simplenewssubscription form input[type="submit"] {
-  padding: 15px 30px;
-  background: #353738;
-  border: 1px solid #353738;
-  color: white;
-  display: inline-block;
-  height: auto;
-  font-size: 14px;
-  height: 50px;
-  text-transform: uppercase;
-}
-/* line 61, ../sass/layout/_footer.scss */
 #footer .navigation {
   float: left;
   margin-left: 30px;
 }
-/* line 66, ../sass/layout/_footer.scss */
+/* line 13, ../sass/layout/_footer.scss */
 #footer a {
   font-size: 18px;
 }
-/* line 71, ../sass/layout/_footer.scss */
+/* line 18, ../sass/layout/_footer.scss */
 #footer ul li a {
   color: #353738;
 }
-/* line 74, ../sass/layout/_footer.scss */
+/* line 21, ../sass/layout/_footer.scss */
 #footer ul li a:hover {
   color: #898989;
 }
-/* line 80, ../sass/layout/_footer.scss */
-#footer .footer-newsletter-description {
-  margin-bottom: 50px;
-}
-/* line 84, ../sass/layout/_footer.scss */
-#footer .footer-search {
-  margin-bottom: 100px;
-}
-/* line 88, ../sass/layout/_footer.scss */
+/* line 27, ../sass/layout/_footer.scss */
 #footer .footer-navigation {
   margin-bottom: 50px;
 }
-/* line 91, ../sass/layout/_footer.scss */
+/* line 30, ../sass/layout/_footer.scss */
 #footer .copyright {
   text-align: left;
   color: #898989;
 }
-/* line 97, ../sass/layout/_footer.scss */
+/* line 36, ../sass/layout/_footer.scss */
 #footer .social-links a {
   margin-left: 10px;
 }
-/* line 102, ../sass/layout/_footer.scss */
-#footer .developed-by-martin {
-  font-size: 12px;
-}
-/* line 104, ../sass/layout/_footer.scss */
-#footer .developed-by-martin a {
-  color: #434748;
-  font-size: 12px;
-}
-/* line 111, ../sass/layout/_footer.scss */
+/* line 42, ../sass/layout/_footer.scss */
 #footer .footer-menu ul {
   -webkit-column-count: 3;
   /* Chrome, Safari, Opera */
@@ -542,28 +473,28 @@ td, th {
   /* Firefox */
   column-count: 3;
 }
-/* line 117, ../sass/layout/_footer.scss */
+/* line 48, ../sass/layout/_footer.scss */
 #footer .footer-menu li {
   margin-bottom: 15px;
   text-align: left;
   display: inline-block;
   width: 100%;
 }
-/* line 123, ../sass/layout/_footer.scss */
+/* line 54, ../sass/layout/_footer.scss */
 #footer .footer-menu li a {
   font-size: 14px;
 }
-/* line 131, ../sass/layout/_footer.scss */
+/* line 62, ../sass/layout/_footer.scss */
 #footer .footer-logo .footer-logo-svg {
   width: 220px;
   height: 55px;
   float: left;
 }
-/* line 135, ../sass/layout/_footer.scss */
+/* line 66, ../sass/layout/_footer.scss */
 #footer .footer-logo .footer-logo-svg img {
   height: 100%;
 }
-/* line 140, ../sass/layout/_footer.scss */
+/* line 71, ../sass/layout/_footer.scss */
 #footer .footer-logo img {
   float: left;
 }
@@ -959,11 +890,6 @@ td, th {
 /* line 363, ../sass/pages/_homepage.scss */
 .cycler img.active {
   z-index: 3;
-}
-
-/* line 369, ../sass/pages/_homepage.scss */
-.slide-liketask-front {
-  cursor: pointer;
 }
 
 /* line 2, ../sass/pages/_node.scss */
